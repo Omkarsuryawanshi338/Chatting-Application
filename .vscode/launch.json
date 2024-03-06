@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "ChattApp.Client",
+            "projectName": "Chatting Application_ba8903a8"
+        },
+        {
+            "type": "java",
+            "name": "Server",
+            "request": "launch",
+            "mainClass": "ChattApp.Server",
+            "projectName": "Chatting Application_ba8903a8"
+        },
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
